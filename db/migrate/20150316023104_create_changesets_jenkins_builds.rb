@@ -1,4 +1,4 @@
-class CreateChangesetsJenkinsBuilds < ActiveRecord::Migration
+class CreateChangesetsJenkinsBuilds < ActiveRecord::Migration[4.2]
 
   def change
     create_table :changesets_jenkins_builds do |t|
