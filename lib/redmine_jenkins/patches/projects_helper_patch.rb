@@ -44,4 +44,3 @@ end
 #  ProjectsHelper.send(:include, RedmineJenkins::Patches::ProjectsHelperPatch:InstanceMethods)
 #end
 ProjectsHelper.prepend(RedmineJenkinsProjectsHelperPatch)
-~
