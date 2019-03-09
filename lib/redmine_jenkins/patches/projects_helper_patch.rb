@@ -28,7 +28,7 @@ module RedmineJenkinsProjectsHelperPatch
 	          :action  => :edit_jenkins_settings,
 	          :partial => 'projects/settings/redmine_jenkins',
 	          :label   => :label_jenkins
-	        }
+	        })
 	        tabs.select {|tab| User.current.allowed_to?(tab[:action], @project)}
 	      end
           tabs
